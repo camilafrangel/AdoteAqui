@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #EFEBE2;
+}
+.cabecalhoPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F6F9FB;
+    height: 80px;
+}
+.logo {
+    height: 60px;
+    margin-left: 6%;
+}
+.logo:hover {
+    height: 70px;
+}
+.menu {
+    display: flex;
+    color:#5DABCB;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 5%;
+}
+.botoes {
+    margin: 0 20px;
+    text-align: center;
+}
+.botoes:hover {
+    color: #8a2be2;
+    cursor: pointer;
+}
+.imagenspets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.imagenspets img {
+    margin: 40px 50px;
+    max-width: 230px;
+    border-radius: 15%;
+    box-shadow: 10px 10px 10px #5daccb7e;
+    transition: 0.5s;
+}
+.imagenspets img:hover {
+    max-width: 245px;
+}
+footer {
+	text-align: center;
+	background: #F6F9FB;
+    padding: 10px;
+    height: 100px;
+}
+footer img {
+    height: 40px;
+}
+.copyright {
+	color: #EC9EC0;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+@media (max-width: 700px) {
+
+    .cabecalhoPrincipal {
+        height: max-content;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .logo {
+        margin: 0;
+    }
+    .botoes {
+        margin: 7px;
+    }
+    .botoes:active {
+        color: #8a2be2;
+    }
+}
