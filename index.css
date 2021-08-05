@@ -10,6 +10,7 @@ body {
     align-items: center;
     background: #F6F9FB;
     height: 80px;
+    margin-bottom: 45px;
 }
 .logo {
     height: 60px;
@@ -34,26 +35,68 @@ body {
     color: #8a2be2;
     cursor: pointer;
 }
+.botoes:active {
+    color: #EC9EC0;
+}
 .imagenspets {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.imagenspets img {
-    margin: 40px 50px;
-    max-width: 230px;
-    border-radius: 15%;
-    box-shadow: 10px 10px 10px #5daccb7e;
-    transition: 0.5s;
+.pets {
+    background-color: #F6F9FB;
+    width: 190px;
+    height: 280px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 20px 35px 20px 35px;
+    box-shadow: 0 0 1em rgba(161, 161, 161, 0.849);
 }
-.imagenspets img:hover {
-    max-width: 245px;
+.pets h3 {
+    font-weight: bolder;
+    font-size: 20px;
+    color:#1e211c;
+    margin-bottom: 0px;
+}
+.pets p {
+    color: #a5a5a5;
+    font-size: 12px;
+    margin-top: 0px;
+}
+.pets img {
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 1em rgba(161, 161, 161, 0.699);
+}
+button {
+    background: #F6F9FB;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    border: 2px solid #892be25e;
+    transition: 0.3s;
+}
+button:hover {
+    background: #892be25e;
+    color: white;
+    border: #892be25e;
+}
+button:active {
+    background: #EC9EC0;
+    color: white;
+    border: #EC9EC0;
 }
 footer {
 	text-align: center;
 	background: #F6F9FB;
     padding: 10px;
     height: 100px;
+    margin-top: 30px;
 }
 footer img {
     height: 40px;
